@@ -1,0 +1,26 @@
+<h3 class='text-center'> Place your bet </h3>
+
+<div class='container-fluid center-container'>
+  <div class='row'>
+    <div class='col-md-3'>
+      <%= link_to play_competitions_path(id: 'rock') do %>
+        <%= image_tag('rock.png', width: '100', height: '100') %>
+      <% end %>
+    </div>
+    <div class='col-md-3'>
+      <%= link_to play_competitions_path(id: 'paper') do %>
+        <%= image_tag('paper.png', width: '100', height: '100') %>
+      <% end %>
+    </div>
+    <div class='col-md-3'>
+      <%= link_to play_competitions_path(id: 'scissors') do %>
+        <%= image_tag('scissors.png', width: '100', height: '100') %>
+      <% end %>
+    </div>
+    <div class='col-md-3'>
+      <%= link_to play_competitions_path(id: 'hammer') do %>
+        <%= image_tag('hammer.png', width: '100', height: '100') %>
+      <% end %>
+    </div>
+  </div>
+</div>
