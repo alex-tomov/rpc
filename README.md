@@ -1,24 +1,18 @@
-# README
+## Description
+'Rock paper scissors' game with extra 'Hammer' rule.
+- Rock beats Scissors
+- Scissors cut Paper
+- Paper covers Rock
+- Extra rule: Hammer can defeat Scissors and Paper but loses to Rock
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+#### Rails version 6.1.7
+#### Ruby version 2.7.7
 
-Things you may want to cover:
+## Installation
+* clone [repository](https://github.com/alex-tomov/rpc)
+* navigate to the created directory
+* run -> `bundle install`
+* optional - run unit test locally `bundle exec rspec`
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Running the project
+Execute `rails server` in terminal, and then visit `http://localhost:3000` in your browser
