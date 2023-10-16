@@ -1,0 +1,9 @@
+AllCops:
+  Exclude:
+    - 'db/**/*'
+    - 'config/**/*'
+    - 'bin/**/*'
+  SuggestExtensions: false
+
+Style/Documentation:
+  Enabled: false
